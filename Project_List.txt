@@ -12,6 +12,10 @@
  Data Challenge "Frequencies prediction"
 
 
-The purpose of this project is to forecast the number of occurrences of words in 2000-2015 with the Le Temps corpus (data until 1998). This project is ideal for students who want to apply a wide range of machine learning methods. This project is a "data challenge" project, wondering creativity and can be selected by many groups.
+The purpose of this project is to forecast the number of occurrences of words 
+in 2000-2015 with the Le Temps corpus (data until 1998). This project is ideal 
+for students who want to apply a wide range of machine learning methods. 
+This project is a "data challenge" project, wondering creativity and 
+can be selected by many groups.
 
 *****************Tentative choice **********************************************************************
