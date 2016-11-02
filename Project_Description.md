@@ -1,0 +1,56 @@
+Project Name: Data Challenge - Frequencies Prediction
+
+Abstract:
+In this project, we want to predict word frequencies in Le Temps data from 2000-2015 based on the data we have until 1999. 
+
+We will start with tokenisation of the data into unique words. At this step we will have to decide how much data cleaning we want to do (NLP for word matching, spelling mistakes etc..). We will also have to filter the words and choose words that are relevant for predictions. We are thinking of looking at the number of appearances of one word in the whole dataset, and if the number is too low than we do not take it. But we still want to look at words that do not appear often to check if perhaps they are words that were only used between 1850 and 1870 for example, which would be quite interesting to find.
+
+Then we will generate a time series of the frequency of each word. We will then do some research on which machine learning methods is best suited for the task. For now a time series prediction seems to fit well with regression or a neural network but we will have to do a lot of research (Machine learning papers). We will have to think about the way to partition the data into test and training sets. We think that we will need a model per word, but this will mean having 1000 models (there are on average 1000 words that people use in the french language). It could also be possible to begin by creating classes of words with unsupervised learning and then creating models for the sub classes, which will result in fewer computations. This will be done by word clustering perhaps (methods that Prof. Jaggi presented in his talk).
+
+For the programming part, we will begin by searching the available machine learning functions in the scikit learn libraries, and once we have something with that we will go deeper and find more advanced methods. For the NLP we will start with using the natural langage toolkit and see if it matches our needs. We are also going to learn the Spark library to implement the algorithms on the cluster.
+
+The final part of the project will be the visualisation of the data we have predicted. We want to do a semi interactive visualisation where you can choose a word and it will show you it’s predicted time frame.
+
+We will also be collaborating with other people as this project is of great interest, and we will get insight and help from them. 
+
+Data Description:
+The data consists of the scanned newspapers of "La Gazette De Lausanne" (1804-1997) and "Le Journal De Genève" (1826-1997). We have at our disposition the word content in each edition of both journals. We have 4 million press articles, and this means that we have about 20 Gb of text data. As our data consists of OCR scanning, we will have errors that will come from the scanning methods, that we will have to correct, or erase. We will also have to deal with spelling mistakes made by the journalism. One other thing that is possible is that the language will have evolved over the 200 years and the orthography of certain words will have changed. There will also be maybe abnormal characters (due to the scanning or even to the printing press). We will also deal with missing data, but we don’t know yet the structure of the data so we will find out.
+
+As the newspapers come from two different sources we also have to pay attention to the fact that these sources can have common differences, a bias in writing style due to regional culture difference for example.
+
+
+Feasibility and Risks:
+Basic prediction models should work for this kind of data, and we have to pay attention to set a goal that will not be too difficult to achieve. We will focus on a simple result before trying to dwell on more exotic and complicated methods. One of the risks is also that we focus on cool niche results and we don’t have time to go on to the final expected result. For example one fun idea that we have is to look at the length of the sentence people wrote and how it changes over time by looking at the frequencies of periods. We could also try to plot the words that only occur in certain time periods. This would be a very interesting result but time consuming and we only have to do it if the rest is finished.
+
+As machine learning has a lot of different methods and libraries it is important for us that we do not get lost when we are searching for methods and focus quite quickly on one, without loosing to much time by testing each one, as all of them have their pros and cons. Furthermore the time to learn the new libraries will start to add up.
+
+One risk is the bias we will enter in our data during the cleaning. As we will develop a particular pipeline to clean the data (for example by matching misspelled words) we will surely not include some parts and we have to pay attention to the pipeline we create and it’s implication on our results.
+
+As we are working with collaborators we also have to pay attention with our interactions with them. For example our timeframe has to match theirs.
+
+One of the risks that we also have is the change in semantics of a word, but this is over the scope of this project and we will not be able to address it.
+
+In our opinion, word usage also depends on culture and could be affected by factors that are not in our dataset, and therefore we miss some input for our predictions.
+
+Deliverables:
+Our final result will take the shape of a visualisation of the time series of the most frequent words from 2000 to 2015.
+
+We also want to be able to precisely define the accuracy of our model and will produce graphs illustrating the accuracy of each tested model.
+
+We will also write a report that covers precisely our method for data extraction, data cleaning and model building. As the project involves other people we would like to produce an open algorithm so that the collaborators can iterate on our work and understand easily what we have done.
+
+Timeplan: 
+Until the submission of the project we have about 7 semester weeks and 5 during the winter break, so we have in total 12 weeks. There are two main parts of the project, on the one hand applying nice machine learning techniques and on the other hand providing nice insights on the data (by doing interesting visualisations for example).
+
+Weeks 1-2 : Understanding of the data
+		 Cleaning of the data
+		 Small visualisation of the time series for certain words
+
+Week 3 : Research of appropriate algorithms that are consistent with our data (time series data and word 			    prediction 
+
+Week 4-7 : Implementation of the algorithms (coding, testing, validating) + beginning of result visualisation.
+
+Week 8-12 : Result visualisation and report writing
+
+
+
