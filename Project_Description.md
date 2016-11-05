@@ -88,10 +88,12 @@ We will also write a report that covers precisely our method for data extraction
 PROJECT IMPACT
 ---------------------------------------------------------------------------------------------------------------------------
 
-	1)On completion of projects we should be able to predict patterns in word usage over time which might be useful for pedogical reasons
-	2)Project will also help to the disaapearance patterns of words. This might be useful as a basic for linguistic research
-	3)Project will enable prediction of trends in future class of words
-	4)It will also help reveal writing style during the various time .
+	1)On completion of projects we should be able to predict patterns in word frequencies over time which 
+	might be useful for pedogical research.
+	2)Project will also help to give insight into the  disappearance patterns of words over time. This might be useful 
+	as a basis for linguistic research
+	3)Project will enable prediction of frequencies in new class of words.
+	4)It will also help reveal writing style during the various time series considered.
 -----------------------------------------------------------------------------------------------------------------------------
 Timeplan
 -----------------------------------------------------------------------------------------------------------------------------
