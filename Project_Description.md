@@ -3,11 +3,11 @@
 PROJECT PROPOSAL.
 ---------------------------------------------------------------------------------------------------------------------------
 
-	Project Title: 		Data Challenge - Frequencies Prediction
-	Project Team: 		Thomas Vetterli(SV), Axel De la Harpe (SV) , Olagoke Lukman Olabisi (Sys Com)
-	Collaborators: 		Digital  Learning Group, EPFL.
-	Project Due Date :	  December 2016
-	Project Supervisor:	Michaele Casata
+	Project Title: 			Data Challenge - Frequencies Prediction
+	Project Team: 			Thomas Vetterli(SV), Axel De la Harpe (SV) , Olagoke Lukman Olabisi (Sys Com)
+	Collaborators: 			Digital  Learning Group, EPFL.
+	Project Due Date :	 	December 2016
+	Project Supervisor:		Michaele Casata
 
 
 ---------------------------------------------------------------------------------------------------------------------------
