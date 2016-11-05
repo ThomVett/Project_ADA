@@ -3,11 +3,10 @@
 PROJECT PROPOSAL.
 ---------------------------------------------------------------------------------------------------------------------------
 
-Project Title: Data Challenge - Frequencies Prediction
-
+Project Title: 		Data Challenge - Frequencies Prediction
 Project Team: 		Thomas Vetterli(SV), Axel De la Harpe (SV) , Olagoke Lukman Olabisi (Sys Com)
 Collaborators: 		Digital  Learning Group, EPFL.
-Project Due  Date :
+Project Due  Date :	  December 2016
 Project Supervisor:	Michaele Casata
 
 
@@ -50,6 +49,7 @@ For the programming part, we will begin by searching the available machine learn
 The final part of the project will be the visualisation of the data we have predicted. We want to do a semi interactive visualisation where you can choose a word and it will show you it’s predicted time frame.
 
 We will also be collaborating with other people as this project is of great interest, and we will get insight and help from them. 
+
 -----------------------------------------------------------------------------------------------------------------------------
 Data Description
 -----------------------------------------------------------------------------------------------------------------------------
