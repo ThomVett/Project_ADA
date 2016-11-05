@@ -1,8 +1,7 @@
 
-#########################################################################################################################
+---------------------------------------------------------------------------------------------------------------------------
 
 PROJECT PROPOSAL.
-#########################################################################################################################
 
 Project Title: Data Challenge - Frequencies Prediction
 
@@ -10,8 +9,7 @@ Project Team: 		Thomas Vetterli(SV), Axel De la Harpe (SV) , Olagoke Lukman Olab
 Collaborators: 		Digital  Learning Group, EPFL.
 Project Due  Date :
 Project Supervisor:	Michaele Casata
-#########################################################################################################################
-
+---------------------------------------------------------------------------------------------------------------------------
 
 
 ---------------------------------------------------------------------------------------------------------------------------
@@ -32,7 +30,7 @@ Below,We provide aims and objectives, a brief abstrcact about the project, Data 
 AIMS AND OBJECTIVES
 -----------------------------------------------------------------------------------------------------------------------------
 
-1) Do data preprocessing
+1)Do data preprocessing
 1) Use various Machine Learning tools to predict word frequencies
 2) Provide good visualisation of results
 3) Master the art of working on big data and machine learning
@@ -90,10 +88,10 @@ We will also write a report that covers precisely our method for data extraction
 
 PROJECT IMPACT
 
-1) On completion of projects we should be able to predict patterns in word usage over time which might be useful for pedogical reasons
-2) Project will also help to the disaapearance patterns of words. This might be useful as a basic for linguistic research
-3) Project will enable prediction of trends in future class of words
-4) It will also help reveal writing style during the various time .
+1)On completion of projects we should be able to predict patterns in word usage over time which might be useful for pedogical reasons
+2)Project will also help to the disaapearance patterns of words. This might be useful as a basic for linguistic research
+3)Project will enable prediction of trends in future class of words
+4)It will also help reveal writing style during the various time .
 -----------------------------------------------------------------------------------------------------------------------------
 Timeplan
 -----------------------------------------------------------------------------------------------------------------------------
