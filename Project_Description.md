@@ -118,8 +118,10 @@ Below we provide a graphical representation of the task flow.
    node [shape=box,style=filled,color=".7 .3 1.0"];
    Data [shape=box];
    Data -> Data_preprocess [weight=8];
-   Data_preprocess -> {cleaning;Analysis;Visualization} [style=bold,label="Do this on raw data.[1]"];
-   cleaning -> Analysis; [style=bold,label=" 3 Actions in pipeline.From cleaning to Visualisation. [2].compare [1] and [2] "];
+   Data_preprocess -> cleaning
+   Data_preprocess -> Analysis; [style=bold,label="Check Description of raw data"];
+   Data_preprocess ->Visualization ; [style=bold,label="Visualise  raw Data "];
+   cleaning -> Analysis; [style=bold,label=" 3 Actions pipeline.From cleaning to Visualisation."];
    Analysis -> Visualization;
    Visualization -> Extract;
    Extract -> ML;
