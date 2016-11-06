@@ -13,24 +13,24 @@ PROJECT PROPOSAL.
 ---------------------------------------------------------------------------------------------------------------------------
 BACKGROUND
 -----------------------------------------------------------------------------------------------------------------------------
-This project is about data analytics. At the end of the course Applied Data Analytics at EPFL student are required to complete a project on data analytics where they try to apply the tools they have learnt in class to a real world data analytics probem. The team will build the data analytics pieline and present the results. Usually, there are many projects that are presented to the class. Then it is up to each group to select which of the projects they should work on.
-This project counts towards a successful completion of the course applied data analytics
+This project is about data analytics. At the end of the course Applied Data Analytics at EPFL student are required to complete a project on data analytics where they try to apply the tools they have learnt in class to a real world data analytics probem. The team will build the data analytics pipeline and present the results. Usually, there are many projects that are presented to the class. Then it is up to each group to select which of the projects they should work on.
+This project counts towards a successful completion of the course applied data analysis.
 
 ---------------------------------------------------------------------------------------------------------------------------
 Introduction
 -----------------------------------------------------------------------------------------------------------------------------
-This work is part of the project requirement for the class Applied Data Analytics at EPFL. It aims to use various Machine Learning Algorithm to predict the observed  frequency patterns in obtained data sets. In addition to this, this project will be accompanied by various result/data visualization  to provide synopsis of our results and findings.
-It uses the available datasets provided by the Digital Learning Group at  EPFL. Usually such data sets always require a lot of cleaning/ preprocessing before they can be used for prediction. After such preprocessing we apply machine learning algorithm for predictions and theafter provide good visualisation for any observed trend.
+This work is part of the project requirement for the class Applied Data Analysis at EPFL. It aims to use various Machine Learning Algorithm to predict the observed  frequency patterns in obtained data sets. In addition to this, this project will be accompanied by various result/data visualization  to provide synopsis of our results and findings.
+It uses the available datasets provided by the Digital Learning Group at  EPFL. Usually such data sets always requires a lot of cleaning/ preprocessing before they can be used for prediction. After such preprocessing we apply machine learning algorithm for predictions and thereafter provide good visualisation for any observed trend.
 
-Below,We provide aims and objectives, a brief abstrcact about the project, Data description, Feasibility and risk, Deliverables and Time plan of the project. 
+Below, We provide aims and objectives, a brief abstract about the project, Data description, Feasibility and risk, Deliverables and Time plan of the project. 
 
 ---------------------------------------------------------------------------------------------------------------------------
 AIMS AND OBJECTIVES
 -----------------------------------------------------------------------------------------------------------------------------
 
-	1) Do data preprocessing
+	1) Perform the data preprocessing
 	1) Use various Machine Learning tools to predict word frequencies
-	2) Provide good visualisation of results
+	2) Provide good visualisation of the results
 	3) Master the art of working on big data and machine learning
 	4) Learn how to solve various problems associated with working on big data
 
@@ -40,11 +40,11 @@ Abstract
 
 In this project, we want to predict word frequencies in Le Temps data from 2000-2015 based on the data we have until 1999. 
 
-We will start with tokenisation of the data into unique words. At this step we will have to decide how much data cleaning we want to do (NLP for word matching, spelling mistakes etc..). We will also have to filter the words and choose words that are relevant for predictions. We are thinking of looking at the number of appearances of one word in the whole dataset, and if the number is too low than we do not take it. But we still want to look at words that do not appear often to check if perhaps they are words that were only used between 1850 and 1870 for example, which would be quite interesting to find.
+We will start with tokenisation of the data into unique words. At this step we will have to decide how much data cleaning we want to do (NLP for word matching, spelling mistakes etc..). We will also have to filter the words and choose words that are relevant for predictions. We are thinking of looking at the number of appearances of one word in the whole dataset, and if the number is too low then we will not predict his occurence. But we still want to look at words that do not appear often to check if perhaps they are words that were only used during a specific period of time, for example only between 1850 and 1870, which would be an interesting information to highlight.
 
-Then we will generate a time series of the frequency of each word. We will then do some research on which machine learning methods is best suited for the task. For now a time series prediction seems to fit well with regression or a recurrent neural network but we will have to do a lot of research (Machine learning papers). We will have to think about the way to partition the data into test and training sets. We think that we will need a model per word, but this will mean having 1000 models (there are on average 1000 words that people use in the french language). It could also be possible to begin by creating classes of words with unsupervised learning and then creating models for the sub classes, which will result in fewer computations. This will be done by word clustering perhaps (methods that Prof. Jaggi presented in his talk).
+Then we will generate a time series of the frequency of each word selected previously. The occurences of words in the form of freqencies, will be plotted for a selected time bin. That coulb for each parution days, or bigger time bins like for each weeks. We need to keep in mind that we have a huge amount of data (more than 250 years of newspaper parution) and that a small time bin might be irrelevant. We will then do some research on which machine learning methods is best suited for the task of predicting the frequencies of words in subsequent parution. For now a time series prediction seems to fit well with regression or a recurrent neural network but we will have to do a lot of research (Machine learning papers). We will have to think about the way to partition the data into test and training sets. We think that we will need a model per word (which means one regression per word), but this will mean having 1000 models (there are on average 1000 words that people use in the french language). As explained before, chosing only the words that are the most frequent in the whole corpus can help us reduce drastically the number of models. It could also be possible to begin by creating classes of words with unsupervised learning and then creating models for the sub classes, which will result in fewer computations. This will be done by word clustering perhaps (methods that Prof. Jaggi presented in his talk).
 
-For the programming part, we will begin by searching the available machine learning functions in the scikit learn libraries, and once we have something with that we will go deeper and find more advanced methods. For the NLP we will start with using the natural langage toolkit and see if it matches our needs. We are also going to learn the Spark library to implement the algorithms on the cluster.
+For the programming part, we will begin by searching the available machine learning functions in the scikit learn libraries, and once we have a basic approach with theses libraries that is valid, we will go deeper and find more advanced methods. For the NLP we will start with using the natural langage toolkit and see if it matches our needs. We are also going to learn the Spark library to implement the algorithms on the cluster.
 
 The final part of the project will be the visualisation of the data we have predicted. We want to do a semi interactive visualisation where you can choose a word and it will show you it’s predicted time frame.
 
@@ -54,15 +54,14 @@ We will also be collaborating with other people as this project is of great inte
 Data Description
 -----------------------------------------------------------------------------------------------------------------------------
 
-The data consists of the scanned newspapers of "La Gazette De Lausanne" (1804-1997) and "Le Journal De Genève" (1826-1997). We have at our disposition the word content in each edition of both journals. We have 4 million press articles, and this means that we have about 20 Gb of text data. As our data consists of OCR scanning, we will have errors that will come from the scanning methods, that we will have to correct, or erase. We will also have to deal with spelling mistakes made by the journalism. One other thing that is possible is that the language will have evolved over the 200 years and the orthography of certain words will have changed. There will also be maybe abnormal characters (due to the scanning or even to the printing press). We will also deal with missing data, but we don’t know yet the structure of the data so we will find out.
+The data consists of the scanned newspapers of "La Gazette De Lausanne" (1804-1997) and "Le Journal De Genève" (1826-1997). We have at our disposition the word content in each edition of both journals. We have 4 million press articles, and this means that we have about 20 Gb of text data. As our data consists of OCR scanning, we will have errors that will come from the scanning methods, that we will have to correct, or erase. We will also have to deal with spelling mistakes made by the journalism. One other thing that is possible is that the language will have evolved over the 200 years and the orthography of certain words will have changed. There will also be maybe abnormal characters (due to the scanning or even to the printing press). We will also deal with missing data, it is possible that some scanning entries will be missing for certain period, but we don’t know yet the structure of the data so we will find out.
 
 As the newspapers come from two different sources we also have to pay attention to the fact that these sources can have common differences, a bias in writing style due to regional culture difference for example.
 
 -----------------------------------------------------------------------------------------------------------------------------
 Feasibility and Risks
 -----------------------------------------------------------------------------------------------------------------------------
-
-Basic prediction models should work for this kind of data, and we have to pay attention to set a goal that will not be too difficult to achieve. We will focus on a simple result before trying to dwell on more exotic and complicated methods. One of the risks is also that we focus on cool niche results and we don’t have time to go on to the final expected result. For example one fun idea that we have is to look at the length of the sentence people wrote and how it changes over time by looking at the frequencies of periods. We could also try to plot the words that only occur in certain time periods. This would be a very interesting result but time consuming and we only have to do it if the rest is finished.
+Basic word freqencies predictions using simple statistical models should be attainable with this data. Once we have that we will look for more specific insights in the data set. But we have to pay attention to set a goal that will not be too difficult to achieve. We will focus on a simple result before trying to dwell on more exotic and complicated methods. One of the risks is also that we focus on cool niche results and we don’t have time to go on to the final expected result. For example, one idea that we wanna look into is to find out if the length of the sentences used in the newspaper change over time, getting longer or shorter. But in order to be done, it is necessary to be able to separates the corpus in sentences, a task that might be hard. We could also try to plot the words that only occur in certain time periods. This would be a very interesting result but potentially time consuming and we only have to do it if the principal objective is attained and the results polished.
 
 As machine learning has a lot of different methods and libraries it is important for us that we do not get lost when we are searching for methods and focus quite quickly on one, without loosing to much time by testing each one, as all of them have their pros and cons. Furthermore the time to learn the new libraries will start to add up.
 
@@ -77,10 +76,9 @@ In our opinion, word usage also depends on culture and could be affected by fact
 -----------------------------------------------------------------------------------------------------------------------------
 Deliverables
 -----------------------------------------------------------------------------------------------------------------------------
+Our final result will be the predictions models of the word frequencies as well as the interactive visualization of the time series of them most frequent words form 2000 to 2015.
 
-Our final result will take the shape of a visualisation of the time series of the most frequent words from 2000 to 2015.
-
-We also want to be able to precisely define the accuracy of our model and will produce graphs illustrating the accuracy of each tested model.
+We also want to be able to precisely define the accuracy of our model and highlight it with graphs illustrating the accuracy of each tested model.
 
 We will also write a report that covers precisely our method for data extraction, data cleaning and model building. As the project involves other people we would like to produce an open algorithm so that the collaborators can iterate on our work and understand easily what we have done.
 
@@ -113,6 +111,8 @@ Week 8-12 : Result visualisation and report writing
 -----------------------------------------------------------------------------------------------------------------------------
 SUMMARY
 -----------------------------------------------------------------------------------------------------------------------------
+
+We will start with data cleaning and data preprocessing (Tokenization). Then machine learning algorithms will be teste to come up with the best solution for predicting the word frequencies. If the timeplan is respected, we will look for more specific insight in the data set. After that, we will work on the interactive visualization of the results so that they can be communicated easily. Finally we will write a report that will explain each step of our work, the methods used and the results we have been able to achieve.
 
 
 
