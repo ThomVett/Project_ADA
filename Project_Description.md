@@ -11,7 +11,7 @@ PROJECT PROPOSAL.
 
 
 ---------------------------------------------------------------------------------------------------------------------------
-BACKGROUND
+Background
 -----------------------------------------------------------------------------------------------------------------------------
 This project is about data analytics. At the end of the course Applied Data Analytics at EPFL students are required to complete a project on data analytics where they try to apply the tools they have learnt in class to a real world data analytics problem. The team will build the data analytics pipeline and present the results. Usually, there are many projects that are presented to the class. Then it is up to each group to select which of the projects they should work on.
 
@@ -26,7 +26,7 @@ It uses the available datasets provided by the Digital Learning Group at  EPFL. 
 Below, We provide aims and objectives, a brief abstract about the project, Data description, Feasibility and risk, Deliverables and Time plan of the project. 
 
 ---------------------------------------------------------------------------------------------------------------------------
-AIMS AND OBJECTIVES
+Aims And Objectives
 ---------------------------------------------------------------------------------------------------------------------------
 
 	1) Perform the data preprocessing
@@ -84,7 +84,7 @@ We also want to be able to precisely define the accuracy of our model and highli
 We will also write a report that covers precisely our method for data extraction, data cleaning and model building. As the project involves other people we would like to produce an open algorithm so that the collaborators can iterate on our work and understand easily what we have done.
 
 ---------------------------------------------------------------------------------------------------------------------------
-PROJECT IMPACT
+Projec Impact
 ---------------------------------------------------------------------------------------------------------------------------
 
 	1)On completion of projects we should be able to predict patterns in word frequencies over time which 
@@ -108,7 +108,7 @@ Until the submission of the project we have about 7 semester weeks and 5 during 
 |   8-12 | <ul><li>Result Visualisation</li><li> Report Submission </li></ul>  	|   	|   
 
 -----------------------------------------------------------------------------------------------------------------------------
-SUMMARY
+Summary
 -----------------------------------------------------------------------------------------------------------------------------
 
 We will start with data cleaning and data preprocessing (*Tokenization*). Then machine learning algorithms will be tested in order to come up with the optimized algorithmic solution for predicting the word frequencies. If the timeplan is respected, we will look for more specific insight in the data set. In addition to this, we will work on the interactive visualisation of the results so that they can be communicated easily. Finally we will write a report that will explain each step of our work, the methods used and the results we have been able to achieve.
