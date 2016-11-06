@@ -30,10 +30,10 @@ AIMS AND OBJECTIVES
 ---------------------------------------------------------------------------------------------------------------------------
 
 	1) Perform the data preprocessing
-	1) Use various Machine Learning tools to predict word frequencies
-	2) Provide good visualisation of the results
-	3) Master the art of working on big data and machine learning
-	4) Learn how to solve various problems associated with working on big data
+	2) Use various Machine Learning tools to predict word frequencies
+	3) Provide good visualisation of the results
+	4) Master the art of working on big data and machine learning
+	5) Learn how to solve various problems associated with working on big data
 
 ---------------------------------------------------------------------------------------------------------------------------
 Abstract
@@ -55,7 +55,7 @@ We will also be collaborating with other people as this project is of great inte
 Data Description
 -----------------------------------------------------------------------------------------------------------------------------
 
-The data consists of the scanned newspapers of * * La Gazette De Lausanne * * (1804-1997) and "Le Journal De Genève" (1826-1997). We have at our disposition the word content in each edition of both journals. We have 4 million press articles, and this means that we have about 20 Gb of text data. As our data consists of OCR scanning, we will have errors that will come from the scanning methods, that we will have to correct, or erase. We will also have to deal with spelling mistakes made by the journalism. One other thing that is possible is that the language will have evolved over the 200 years and the orthography of certain words will have changed. There will also be maybe abnormal characters (due to the scanning or even to the printing press). We will also deal with missing data, it is possible that some scanning entries will be missing for certain period, but we don’t know yet the structure of the data so we will find out.
+The data consists of the scanned newspapers of "*La Gazette De Lausanne*"  (1804-1997) and "*Le Journal De Genève*" (1826-1997). We have at our disposition the word content in each edition of both journals. We have 4 million press articles, and this means that we have about 20 Gb of text data. As our data consists of OCR scanning, we will have errors that will come from the scanning methods, that we will have to correct, or erase. We will also have to deal with spelling mistakes made by the journalism. One other thing that is possible is that the language will have evolved over the 200 years and the orthography of certain words will have changed. There will also be maybe abnormal characters (due to the scanning or even to the printing press). We will also deal with missing data, it is possible that some scanning entries will be missing for certain period, but we don’t know yet the structure of the data so we will find out.
 
 As the newspapers come from two different sources we also have to pay attention to the fact that these sources can have common differences, a bias in writing style due to regional culture difference for example.
 
@@ -100,36 +100,16 @@ Timeplan
 
 Until the submission of the project we have about 7 semester weeks and 5 during the winter break, so we have in total 12 weeks. There are two main parts of the project, on the one hand applying nice machine learning techniques and on the other hand providing nice insights on the data (by doing interesting visualisations for example). The breakdown of the time plan / miles stone is given below:
 
-Weeks 1-2 : - [ ] Understanding of the data
-	    Cleaning of the data
-	    Small visualisation of the time series for certain words
-
-Week 3 : Research of appropriate algorithms that are consistent with our data (time series data and word 			    prediction 
-
-Week 4-7 : Implementation of the algorithms (coding, testing, validating) + beginning of result visualisation.
-
-Week 8-12 : Result visualisation and report writing
-
-|WEEKS 	|TASK 	|  OBSERVATIONS 	|  
+|WEEKS 	|TASK 	|  COMMENTS 	|  
 |---	|---|---|---|---|
-|1-2   	|- Understanding of the data  - KDFLJADSJLKFNAJLDKFAJLKDFJDFJAKSDFJKLDSJK |   	|   	  	
-|   	|   	|   	|   	
-|   	|   	|   	|   
+|1-2   	| <ul><li>Understanding Data</li><li>Cleaning data</li><li>Small Visualisation for certain time series for certain words</li></ul> | We aim to understand the data in details at this stage   	|   	  	
+| 3  	|  Research of the Algorithms that are consistent with our data (time series data and prediction )	| Having understood the data, we start trying out Algorithms and fine tuning parameters 	|   	
+|  4-7 	|  <ul><li>Implementation of Algorithms (*coding,testing and debugging*)</li><li>Beginnning of results visualisation </li></ul>  	|   	|   
+|   8-12 | <ul><li>Result Visualisation</li><li> Report Submission </li></ul>  	|   	|   
 
 -----------------------------------------------------------------------------------------------------------------------------
 SUMMARY
 -----------------------------------------------------------------------------------------------------------------------------
 
-We will start with data cleaning and data preprocessing (Tokenization). Then machine learning algorithms will be teste to come up with the best solution for predicting the word frequencies. If the timeplan is respected, we will look for more specific insight in the data set. After that, we will work on the interactive visualisation of the results so that they can be communicated easily. Finally we will write a report that will explain each step of our work, the methods used and the results we have been able to achieve.
-
-- [ ] a task list item
-
-
-
-
-
-
-
-
-
+We will start with data cleaning and data preprocessing (*Tokenization*). Then machine learning algorithms will be tested in order to come up with the optimized algorithmic solution for predicting the word frequencies. If the timeplan is respected, we will look for more specific insight in the data set. In addition to this, we will work on the interactive visualisation of the results so that they can be communicated easily. Finally we will write a report that will explain each step of our work, the methods used and the results we have been able to achieve.
 
