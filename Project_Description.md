@@ -111,8 +111,8 @@ Week 4-7 : Implementation of the algorithms (coding, testing, validating) + begi
 Week 8-12 : Result visualisation and report writing
 
 |WEEKS 	|TASK 	|  OBSERVATIONS 	|  
-|---	|---	|---	|---	|---	|
-|1-2   	| Understanding of the data ELLLE	|   	|   	  	
+|---	|---|---|---|---|
+|1-2   	| Understanding of the data |   	|   	  	
 |   	|   	|   	|   	
 |   	|   	|   	|   
 
