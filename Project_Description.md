@@ -112,7 +112,7 @@ Week 8-12 : Result visualisation and report writing
 
 |WEEKS 	|TASK 	|  OBSERVATIONS 	|  
 |---	|---|---|---|---|
-|1-2   	| Understanding of the data KDFLJADSJLKFNAJLDKFAJLKDFJDFJAKSDFJKLDSJK |   	|   	  	
+|1-2   	| Understanding of the data \t KDFLJADSJLKFNAJLDKFAJLKDFJDFJAKSDFJKLDSJK |   	|   	  	
 |   	|   	|   	|   	
 |   	|   	|   	|   
 
