@@ -112,7 +112,8 @@ Week 8-12 : Result visualisation and report writing
 
 |WEEKS 	|TASK 	|   	|   	|   	|
 |---	|---	|---	|---	|---	|
-|1-2   	| Understanding of the data  	|   	|   	|   	|
+|1-2   	| Understanding of the data Cleaning of the data Small visualisation of the time series for certain words
+	|   	|   	|   	|
 |   	|   	|   	|   	|   	|
 |   	|   	|   	|   	|   	|
 
