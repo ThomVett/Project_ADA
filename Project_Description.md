@@ -108,8 +108,8 @@ Until the submission of the project we have about 7 semester weeks and 5 during 
 |   8-12 | <ul><li>Result Visualisation</li><li> Report Submission </li></ul>  	|   	|   
 
 -----------------------------------------------------------------------------------------------------------------------------
-Summary
+Conclusion
 -----------------------------------------------------------------------------------------------------------------------------
 
-We will start with data cleaning and data preprocessing (*Tokenization*). Then machine learning algorithms will be tested in order to come up with the optimized algorithmic solution for predicting the word frequencies. If the timeplan is respected, we will look for more specific insight in the data set. In addition to this, we will work on the interactive visualisation of the results so that they can be communicated easily. Finally we will write a report that will explain each step of our work, the methods used and the results we have been able to achieve.
+In conclusion, we will start with data cleaning and data preprocessing (*Tokenization*). Then machine learning algorithms will be tested in order to come up with the optimized algorithmic solution for predicting the word frequencies. If the timeplan is respected, we will look for more specific insight in the data set. In addition to this, we will work on the interactive visualisation of the results so that they can be communicated easily. Finally we will write a report that will explain each step of our work, the methods used and the results we have been able to achieve.
 
