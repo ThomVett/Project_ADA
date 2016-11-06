@@ -130,8 +130,10 @@ Below we provide a graphical representation of the task flow.
    Parameter -> Testing_Validation;
    Testing_Validation->Prediction
    Prediction -> Parameter
+   node [shape=box,style=filled,color="gray"];
    Prediction -> Visualization1
    Visualization -> Visualization1
+   node [shape=box,style=filled,color="gray"];
    {Data_preprocess;Visualization1;ML} -> Report;
    Visualization1 [label = "Trends Visualiser"]
    Testing_Validation[label = "Testing and Validation"]
