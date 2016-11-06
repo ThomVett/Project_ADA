@@ -121,7 +121,7 @@ SUMMARY
 -----------------------------------------------------------------------------------------------------------------------------
 
 We will start with data cleaning and data preprocessing (Tokenization). Then machine learning algorithms will be teste to come up with the best solution for predicting the word frequencies. If the timeplan is respected, we will look for more specific insight in the data set. After that, we will work on the interactive visualisation of the results so that they can be communicated easily. Finally we will write a report that will explain each step of our work, the methods used and the results we have been able to achieve.
-
+	- [ ] a task list item
 
 
 
