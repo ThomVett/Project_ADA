@@ -108,8 +108,48 @@ Until the submission of the project we have about 7 semester weeks and 5 during 
 |   8-12 | <ul><li>Result Visualisation</li><li> Report Submission </li></ul>  	|   	|   
 
 -----------------------------------------------------------------------------------------------------------------------------
+Summary of Task Flow
+-----------------------------------------------------------------------------------------------------------------------------
+Below we provide a graphical representation of the task flow. 
+
+![Alt text](http://g.gravizo.com/svg?
+  digraph G {
+   aize ="4,4";
+   node [shape=box,style=filled,color=".7 .3 1.0"];
+   Data [shape=box];
+   Data -> Data_preprocess [weight=8];
+   Data_preprocess -> {cleaning;Analysis;Visualization} [style=bold,label="Do this on raw data.[1]"];
+   cleaning -> Analysis; [style=bold,label=" 3 Actions in pipeline.From cleaning to Visualisation. [2].compare [1] and [2] "];
+   Analysis -> Visualization;
+   Visualization -> Extract;
+   Extract -> ML;
+   ML -> ML ;[style=dotted,label=" Iterate through this step for Models Selection"]
+   node [shape=box,style=filled,color="gray"];
+   ML -> Parameter;
+   node [shape=box,style=filled,color=".7 .3 1.0"];
+   Parameter -> Testing_Validation;
+   Testing_Validation->Prediction
+   Prediction -> Parameter
+   Prediction -> Visualization1
+   Visualization -> Visualization1
+   {Data_preprocess;Visualization1;ML} -> Report;
+   Visualization1 [label = "Trends Visualiser"]
+   Testing_Validation[label = "Testing and Validation"]
+   Parameter [label = "Parameter tuning and optimization of Models"]
+   ML [label = "Do Machine Learning Algorithm"]
+   Extract [label = "Extract clean Data"];
+   Data_preprocess [label="Data Preprocessing"];
+   Data [label="Data Collection"];
+  }
+)
+
+
+
+
+-----------------------------------------------------------------------------------------------------------------------------
 Conclusion
 -----------------------------------------------------------------------------------------------------------------------------
 
 In conclusion, we will start with data cleaning and data preprocessing (*Tokenization*). Then machine learning algorithms will be tested in order to come up with the optimized algorithmic solution for predicting the word frequencies. If the timeplan is respected, we will look for more specific insight in the data set. In addition to this, we will work on the interactive visualisation of the results so that they can be communicated easily. Finally we will write a report that will explain each step of our work, the methods used and the results we have been able to achieve.
+
 
