@@ -98,7 +98,7 @@ PROJECT IMPACT
 Timeplan
 -----------------------------------------------------------------------------------------------------------------------------
 
-Until the submission of the project we have about 7 semester weeks and 5 during the winter break, so we have in total 12 weeks. There are two main parts of the project, on the one hand applying nice machine learning techniques and on the other hand providing nice insights on the data (by doing interesting visualisations for example).
+Until the submission of the project we have about 7 semester weeks and 5 during the winter break, so we have in total 12 weeks. There are two main parts of the project, on the one hand applying nice machine learning techniques and on the other hand providing nice insights on the data (by doing interesting visualisations for example). The breakdown of the time plan / miles stone is given below:
 
 Weeks 1-2 : Understanding of the data
 	    Cleaning of the data
@@ -109,6 +109,12 @@ Week 3 : Research of appropriate algorithms that are consistent with our data (t
 Week 4-7 : Implementation of the algorithms (coding, testing, validating) + beginning of result visualisation.
 
 Week 8-12 : Result visualisation and report writing
+
+|WEEKS 	|TASK 	|   	|   	|   	|
+|---	|---	|---	|---	|---	|
+|   	|   	|   	|   	|   	|
+|   	|   	|   	|   	|   	|
+|   	|   	|   	|   	|   	|
 
 -----------------------------------------------------------------------------------------------------------------------------
 SUMMARY
