@@ -1,7 +1,5 @@
 
----------------------------------------------------------------------------------------------------------------------------
-PROJECT PROPOSAL.
----------------------------------------------------------------------------------------------------------------------------
+#Project Proposal
 
 	Project Title: 			Data Challenge - Frequencies Prediction
 	Project Team: 			Thomas Vetterli(SV) ,Axel De la Harpe (SV),Olagoke Lukman Olabisi (Sys Com)
