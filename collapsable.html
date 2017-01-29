@@ -3,21 +3,21 @@
 <style>
 
 .node circle {
-  cursor: pointer;
+  cursor:  pointer;
   stroke: #3182bd;
-  stroke-width: 1.5px;
+  stroke-width: 1.9px;
 }
 
 .node text {
-  font: 10px sans-serif;
+  font: 12px sans-serif;
   pointer-events: none;
-  text-anchor: middle;
+  text-anchor: max-width: ;
 }
 
 line.link {
   fill: none;
   stroke: #9ecae1;
-  stroke-width: 1.5px;
+  stroke-width: 3px;
 }
 
 </style>
@@ -25,14 +25,14 @@ line.link {
 <script src="//d3js.org/d3.v3.min.js"></script>
 <script>
 
-var width = 500,
-    height = 700,
+var width = 8000,
+    height = 6000,
     root;
 
 var force = d3.layout.force()
-    .linkDistance(80)
-    .charge(-120)
-    .gravity(.05)
+    .linkDistance(90)
+    .charge(-80)
+    .gravity(.01)
     .size([width, height])
     .on("tick", tick);
 
@@ -43,7 +43,7 @@ var svg = d3.select("body").append("svg")
 var link = svg.selectAll(".link"),
     node = svg.selectAll(".node");
 
-d3.json("collapse.json", function(error, json) {
+d3.json("collapsableGraph.json", function(error, json) {
   if (error) throw error;
 
   root = json;
@@ -79,17 +79,20 @@ function update() {
       .call(force.drag);
 
   nodeEnter.append("circle")
-      .attr("r", function(d) { return (d.size) || 1.5; });
+      .attr("r", function(d) { return Math.sqrt(d.size) || 1.5; });
 
   nodeEnter.append("text")
       .attr("dy", ".70em")
-      .style("font-weight","2px")
-      .attr("dx", -4)
-      .style('fill', 'green')
+      .style("font-weight","5px")
+      .style("font-weight","bold")
+      .attr("dx", -5)
+      .style('fill', 'black')
       .text(function(d) { return d.name; });
 
   node.select("circle")
       .style("fill", color);
+
+
 }
 
 function tick() {
@@ -119,6 +122,7 @@ function click(d) {
   }
   update();
 }
+
 
 // Returns a list of all nodes under the root.
 function flatten(root) {
