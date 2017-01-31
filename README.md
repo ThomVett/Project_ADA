@@ -21,8 +21,13 @@ What follows can serve as a short report to understand the thought process that 
 - **9_LSTM_prediction.ipynb** : Here we implement an LSTM model to try and predict a time series.
 - **10_sarimax_model.ipynb** : Here we try to understand the Sarimax model to predict word frequency.
 - **11_sarimax_model_for_seasonal_words.ipynb** : Here we implement the SARIMAX model to word with a seasonality and assess its viability.
+- **Visualizations.ipynb** : Notebook that was used to produce the plots in the presentation.
 
-
+- **Images** : Images associated with the word cloud video
+- **movie.gif** : Gif of the word cloud over time
+- **Plots** : Plots for the visualisation
+- **Data** : Cleaned data that was small enough to put on GitHub.
+-**Presentation** : PDF and PPT files for the Poster Session.
 
 ###Dependencies
 The project was done in Python code with the following main libraries: 
