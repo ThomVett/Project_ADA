@@ -5,13 +5,31 @@ This repository contains the project that was done for the course [Applied Data 
 The aim of this project is to predict frequencies of word appearance in le journal [Le Temps](https://www.letemps.ch/) based on their archives from 1800 to 1998.
 
 ###Description of the file in the repository
-- Project_Description.md : More detailed description of the project that was done as an introductory work to understand what had to be done over the course of the semester
-- ADA Final Project.ipynb : IPython notebook describing the pipeline for data processing and machine learning that we applied to our dataset.
-- plots.py : File containing the functions that were used for the visualization of the data
-- utils.py : File containing the Python functions that were used in the processing and machine learning pipeline.
+
+What follows can serve as a short report to understand the thought process that went into the realization of this project. These notebooks are a cleaned up version of the code that was used to produce and find all the folloeing results.
+- **Project_Description.md** : A detailed description of the project that was done as an introductory work to understand what had to be done over the course of the semester.
+#### Exploration and extraction of the data
+- **1_Exploring the Data.ipynb** : We do a first exploratory analysis of the dataset using [Spark](http://spark.apache.org/) library. We describe how the dataset and show why we choose not to use Spark because there were bugs that we were not able to solve in a timely manner.
+- **2_Filtering the data.ipynb** : As each file contained a lot of information a short pipeline had to be implemented to extract the raw word count of each word during each month. Here we compare a few methods on speed and qualitfy of results. 
+- **3_Extracting the Data & Cleaning.ipynb** : In this notebook we apply the extraction method defined in the previous one on each month (stored on our private computers). We then desrcribe the cleaning methods that are applied to the data. We implement here custom NLP rules that can be used for the french language are we are not convinced by NLTK library toolkit. The output of this notebook is the cleaned version of the data that can be used for subsequent analysis.
+- **4_First Visualisations .ipynb** : In this notebook we show a few exploratory analysis of the dataset to understand a little how it looks like!
+- **5_Word Distribution.ipynb** : As in step 2 we only extract the 3000+ most frequent words we miss a part of the long tail distribution of the words. In this notebook we compute theoretically the percentage of the distribution that was missed.
+- **6_Finding Patterns in the Data.ipynb** : In this notebook we describe methods that were used to find words with time series that were interesting to look at (periodic words, appearing words, disappearing words etc...)
+- **7_Word Clouds..ipynb** : In this notebook we propose to implement a wordcloud gif over the year (one wordcloud per year). Unfortunately due to the noisiness of the data the result is not very nice, but it's fun to look at.
+- **8_Analyzing Word Ranks.ipynb** : In this notebook we analytze the evolution of the word set over time and we find that as expected this jouranl uses a large wordset!
+#### Predicitons
+- **9_LSTM_prediction.ipynb** : Here we implement an LSTM model to try and predict a time series.
+- **10_sarimax_model.ipynb** : Here we try to understand the Sarimax model to predict word frequency.
+- **11_sarimax_model_for_seasonal_words.ipynb** : Here we implement the SARIMAX model to word with a seasonality and assess its viability.
+
+
 
 ###Dependencies
-The project was done in Python code with the following libraries: 
+The project was done in Python code with the following main libraries: 
 
-- Numpy
-- Pandas
+- [Numpy](http://www.numpy.org/)
+- [Pandas](http://pandas.pydata.org/)
+- [Scikit-Learn](http://scikit-learn.org/stable/)
+- [Wordcloud](https://github.com/amueller/word_cloud)
+- [Keras](https://keras.io/)
+- [https://www.crummy.com/software/BeautifulSoup/bs4/doc/](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)
