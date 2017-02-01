@@ -16,10 +16,10 @@ What follows can serve as a short report to understand the thought process that 
 - **5_Word Distribution.ipynb** : As in step 2 we only extract the 3000+ most frequent words we miss a part of the long tail distribution of the words. In this notebook we compute theoretically the percentage of the distribution that was missed.
 - **6_Finding Patterns in the Data.ipynb** : In this notebook we describe methods that were used to find words with time series that were interesting to look at (periodic words, appearing words, disappearing words etc...)
 - **7_Word Clouds..ipynb** : In this notebook we propose to implement a wordcloud gif over the year (one wordcloud per year). Unfortunately due to the noisiness of the data the result is not very nice, but it's fun to look at.
-- **8_Analyzing Word Ranks.ipynb** : In this notebook we analytze the evolution of the word set over time and we find that as expected this jouranl uses a large wordset!
+- **8_Analyzing Word Ranks.ipynb** : In this notebook we analytze the evolution of the word set over time and we find that as expected this journal uses a large wordset!
 #### Predicitons
-- **9_LSTM_prediction.ipynb** : Here we implement an LSTM model to try and predict a time series.
-- **10_sarimax_model.ipynb** : Here we try to understand the Sarimax model to predict word frequency.
+- **9_LSTM_prediction.ipynb** : Here we implement an LSTM model to try and predict a time series. The problem is framed as a regression model. The network is given previous time value and has to output the correct future value.
+- **10_sarimax_model.ipynb** : Here we try to understand and implement the Sarimax model to predict word frequency. The time serie is made stationary and parameters are extracted. The model is implemented for the word "politique".
 - **11_sarimax_model_for_seasonal_words.ipynb** : Here we implement the SARIMAX model to word with a seasonality and assess its viability.
 - **Visualizations.ipynb** : Notebook that was used to produce the plots in the presentation.
 
@@ -38,3 +38,5 @@ The project was done in Python code with the following main libraries:
 - [Wordcloud](https://github.com/amueller/word_cloud)
 - [Keras](https://keras.io/)
 - [https://www.crummy.com/software/BeautifulSoup/bs4/doc/](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)
+- [http://www.statsmodels.org/dev/generated/statsmodels.tsa.statespace.sarimax.SARIMAX.html]
+(http://www.statsmodels.org/dev/generated/statsmodels.tsa.statespace.sarimax.SARIMAX.html)
