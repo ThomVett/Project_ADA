@@ -22,6 +22,9 @@ What follows can serve as a short report to understand the thought process that 
 - **10_sarimax_model.ipynb** : Here we try to understand and implement the Sarimax model to predict word frequency. The time serie is made stationary and parameters are extracted. The model is implemented for the word "politique".
 - **11_sarimax_model_for_seasonal_words.ipynb** : Here we implement the SARIMAX model to word with a seasonality and assess its viability.
 - **Visualizations.ipynb** : Notebook that was used to produce the plots in the presentation.
+- **Interactive_Vizualizations.ipynb** : In this notebook we provide a short overview of the two interactive visualisation plots that were implemented.
+1. Evolution of the rank of the most frequent words over time
+2. Interactive tree graph of the most frequent words, with one main node per year.
 
 - **Images** : Images associated with the word cloud video
 - **movie.gif** : Gif of the word cloud over time
