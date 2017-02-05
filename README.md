@@ -28,8 +28,8 @@ What follows can serve as a short report to understand the thought process that 
 - **movie.gif** : Gif of the word cloud over time
 - **Plots** : Plots for the visualisation
 - **Data** : Cleaned data that was small enough to put on GitHub.
--**Presentation** : PDF and PPT files for the Poster Session.
-
+- **Presentation** : PDF and PPT files for the Poster Session.
+- **VIz** : Code that was used to implement the interactive visualisations.
 ###Dependencies
 The project was done in Python code with the following main libraries: 
 
