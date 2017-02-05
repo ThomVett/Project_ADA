@@ -38,6 +38,6 @@ The project was done in Python code with the following main libraries:
 - [Scikit-Learn](http://scikit-learn.org/stable/)
 - [Wordcloud](https://github.com/amueller/word_cloud)
 - [Keras](https://keras.io/)
-- [https://www.crummy.com/software/BeautifulSoup/bs4/doc/](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)
-- [http://www.statsmodels.org/dev/generated/statsmodels.tsa.statespace.sarimax.SARIMAX.html]
+- [Beautiful Soup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)
+- [StatsModels]
 (http://www.statsmodels.org/dev/generated/statsmodels.tsa.statespace.sarimax.SARIMAX.html)
