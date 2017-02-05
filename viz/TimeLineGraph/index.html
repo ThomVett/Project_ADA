@@ -1,0 +1,50 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <title>Words Frequency Prediction</title>
+
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+
+    <link href="style.css" media="screen" rel="stylesheet" type="text/css"/>
+
+    <script type="text/javascript" src="http://d3js.org/d3.v2.min.js"></script>
+
+</head>
+<body>
+<script>
+var x = d3.scale.linear()
+    .range([0, 950]);
+
+  var y = d3.scale.linear()
+    .range([200, 0]);
+
+  var xAxis = d3.svg.axis()
+    .scale(x)
+    .orient("top");
+  x.domain([0, 950]);
+
+  y.domain([0, 7]);
+
+  svg.append("g")
+    .attr("class", "x axis")
+    .attr("transform", "translate(20,250)")
+    .call(xAxis);
+
+x.domain(d3.extent(data[1].years, function(d) { return d.year; })).nice();
+
+
+
+</script>
+<span class="title">Word Frequencies Ranking For Top 100 Words From 1718 - 1998
+
+</span>
+
+<span class="attrib">Adapted From: <a href="http://vislives.com/" target="_blank"> Chris Putney Viz GitHub</a></span>
+
+<div id="chart"></div>
+<span class="legend"> <span
+        class="safety">Applied Data Analytics,2016</span> | <span class="lapped">Data Challenge </span> | Word Frequency Prediction</span>
+<script src="lap-chart.js" type="text/javascript"></script>
+</body>
+</html>
