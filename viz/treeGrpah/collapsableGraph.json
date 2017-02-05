@@ -1,0 +1,779 @@
+{
+  "name": "1798-02-01",
+  "size": 8,
+  "children": [
+    {
+      "name": "affemblée",
+      "size": 105.0
+    },
+    {
+      "name": "assemblé",
+      "size": 81.0
+    },
+    {
+      "name": "citoyen",
+      "size": 218.0
+    },
+    {
+      "name": "comité",
+      "size": 185.0
+    },
+    {
+      "name": "eft",
+      "size": 168.0
+    },
+    {
+      "name": "faire",
+      "size": 71.0
+    },
+    {
+      "name": "fait",
+      "size": 85.0
+    },
+    {
+      "name": "fera",
+      "size": 78.0
+    },
+    {
+      "name": "fes",
+      "size": 89.0
+    },
+    {
+      "name": "fon",
+      "size": 89.0
+    },
+    {
+      "name": "font",
+      "size": 72.0
+    },
+    {
+      "name": "fur",
+      "size": 106.0
+    },
+    {
+      "name": "général",
+      "size": 98.0
+    },
+    {
+      "name": "ils",
+      "size": 104.0
+    },
+    {
+      "name": "lettre",
+      "size": 66.0
+    },
+    {
+      "name": "leurs",
+      "size": 81.0
+    },
+    {
+      "name": "liberté",
+      "size": 96.0
+    },
+    {
+      "name": "peuple",
+      "size": 90.0
+    },
+    {
+      "name": "tous",
+      "size": 149.0
+    },
+    {
+      "name": "tout",
+      "size": 126.0
+    },
+    {
+      "name": "êtr",
+      "size": 73.0
+    },
+    {
+        "name":"1799",
+        "size":90,
+        "children":
+        [
+       {  "name": "armé","size": 192.2},
+        {  "name": "autr","size":139.4},
+        {  "name": "citoyen","size": 245.0},
+        {  "name": "deux", "size": 141.1},
+        {  "name": "directoire", "size": 222.5},
+        {  "name": "dit", "size" :153.58},
+        {  "name": "eft", "size": 669.25},
+        {  "name": "faire", "size": 139.75},
+        {  "name": "fait", "size": 217.75},
+        {  "name": "fera", "size": 155.1},
+        {  "name": "fes", "size": 170.0},
+        {  "name": "fon","size":192.3},
+        {  "name": "font", "size":343.5},
+        {  "name": "fur", "size":450.9},
+        {  "name": "général", "size": 276.5},
+        {  "name": "ils", "size":224.5},
+        {  "name": "leurs", "size": 180.0},
+        {  "name": "on", "size": 154.7},
+        {  "name": "tous", "size": 194.25},
+        {  "name": "tout", "size":293.0},
+        {  "name": "êtr","size": 181}
+
+
+
+
+
+    ]
+
+    },
+    {
+        "name": "1804",
+        "size":90,
+        "children":[
+            {  "name":  "autr","size":147.4     },
+            {  "name":  "avoir","size": 105.8},
+            {  "name":  "canton", "size":107.9},
+            {  "name":  "deux", "size":139.5},
+            {  "name":  "dit", "size": 154.3},
+            {  "name":  "dont", "size":114.1},
+            {  "name":  "eft","size": 242.9},
+            {  "name":  "faire","size": 112.0833333333},
+            {  "name":  "fait","size" :170.4166666667},
+            {  "name":  "fera","size" :119.6666666667},
+            {  "name":  "fon","size": 107.4166666667},
+            {  "name":  "font","size": 148.0833333333},
+            {  "name":  "fur", "size":214.5},
+            {  "name":  "ils", "size": 143.5},
+            {  "name":  "leurs", "size": 104.0833333333},
+            {  "name":  "on","size": 162.0833333333},
+            {  "name":  "quelque","size": 101.25},
+            {  "name":  "tous", "size":160.6666666667},
+            {  "name":  "tout","size": 220.25},
+            {  "name":  "êtr","size": 139.2},
+
+            {
+                "name":"1805",
+                "size":90,
+                "children":[
+
+                { "name":"armé","size": 140.0},
+                { "name":"autr","size": 156.0},
+                { "name":"deux" ,"size": 178.0},
+                { "name":"dit","size": 176.0},
+                { "name":"eft","size":  363.0},
+                { "name":"empereur","size":  161.0},
+                { "name":"faire","size":  132.0},
+                { "name":"fait","size":  204.0},
+                { "name":"fera","size":  160.0},
+                { "name":"font","size":  186.0},
+                { "name":"fur","size": 281.0},
+                { "name":"général","size":  134.0},
+                { "name":"ils","size":  135.0},
+                { "name":"on","size":  156.0},
+                { "name":"tous","size": 173.0},
+                { "name":"tout","size":  266.0},
+                { "name":"êtr","size":  157.0},
+                {
+
+                    "name":"1806",
+                    "size":90,
+                    "children":[
+                     {"name":  "armé","size": 157.0},                    { "name":  "autr", "size":160.0},
+                    { "name":  "deux","size": 179.0},
+                    { "name":  "dit","size":158.0},
+                    { "name":  "eft","size":352.0},
+                    { "name":  "fait","size": 202.0},
+                    { "name":  "font","size": 185.0},
+                    { "name":  "français", "size":167.0},
+                    { "name":  "fur","size":230.0},
+                    { "name":  "général","size": 162.0},
+                    { "name":  "ils","size":152.0},
+                    { "name":  "tous","size": 193.0},
+                    { "name":  "tout", "size":293.0},
+                    { "name":  "êtr","size":166.0},
+                    {
+                    "name":"1807",
+                    "size":90,
+                    "children":
+                    [
+{"name": "armé","size": 156.0         },
+{"name": "autr","size":160.0},
+{"name": "deux","size": 177.0},
+{"name": "dit","size": 137.0},
+{"name": "eft","size": 340.0},
+{"name": "empereur","size":142.0},
+{"name": "faire","size":132.0},
+{"name": "fait","size": 216.0},
+{"name": "font","size": 166.0},
+{"name": "français","size": 138.0},
+{"name": "fur","size":204.0},
+{"name": "général","size":181.0},
+{"name": "ils","size":175.0},
+{"name": "mois","size": 150.0},
+{"name": "on","size": 160.0},
+{"name": "tous","size": 168.0},
+{"name": "tout","size": 298.0},
+{"name": "troupe","size": 132.0},
+{"name": "êtr","size":151.0},
+{
+"name":"1808-1899",
+"size":90,
+"children":
+[
+{"name": "aussi","size": 438.0}         ,
+{"name": "autr","size": 708.0},
+{"name": "bien","size": 689.0},
+{"name": "conseil","size": 767.0},
+{"name": "contre","size": 432.0},
+{"name": "deux","size":687.0},
+{"name": "dit","size": 425.0},
+{"name": "dont","size": 569.0},
+{"name": "encore","size": 480.0},
+{"name": "faire","size": 600.0},
+{"name": "fait","size": 894.0},
+{"name": "genève","size": 606.0},
+{"name": "gouvernement","size": 410.0},
+{"name": "grand","size":451.0},
+{"name": "général","size": 406.0},
+{"name": "heur","size": 464.0},
+{"name": "ils","size":614.0},
+{"name": "leurs","size": 441.0},
+{"name": "on","size":639.0},
+{"name": "paris","size": 446.0},
+{"name": "quelque","size": 548.0},
+{"name": "sans","size":643.0},
+{"name": "sous","size": 414.0},
+{"name": "suisse","size": 534.0},
+{"name": "tous","size":611.0},
+{"name": "tout","size": 1458.0},
+{"name": "êtr","size":636.0},
+{
+"name":"1990-1914",
+"size":90,
+"children":[
+{ "name": "aussi", "size": 911.0            }       ,
+{ "name": "autr", "size":1523.0},
+{ "name": "bien", "size": 1356.0},
+{ "name": "conseil", "size": 1526.0},
+{ "name": "contre", "size": 1089.0},
+{ "name": "deux", "size": 1518.0},
+{ "name": "dont", "size": 1187.0},
+{ "name": "encore", "size": 1048.0},
+{ "name": "faire", "size": 1054.0},
+{ "name": "fait", "size": 1893.0},
+{ "name": "genève", "size": 1169.0},
+{ "name": "grand", "size": 938.0},
+{ "name": "général", "size":943.0},
+{ "name": "ils", "size": 1361.0},
+{ "name": "leurs", "size": 923.0},
+{ "name": "on", "size": 1069.0},
+{ "name": "paris", "size": 916.0},
+{ "name": "quelque", "size": 1016.0},
+{ "name": "sans", "size": 1324.0},
+{ "name": "suisse", "size":1414.0},
+{ "name": "tous", "size":1278.0},
+{ "name": "tout", "size": 3111.0},
+{ "name": "trè", "size": 1135.0},
+{ "name": "êtr", "size":1289.0},
+
+
+{
+"name":"1923-1952",
+"size":90,
+"children":
+[
+
+{ "name": "allemand","size": 969.0},
+{ "name": "aprè","size":1092.0},
+{ "name": "aussi","size": 1183.0},
+{ "name": "autr","size": 2045.0},
+{ "name": "bien","size":1625.0},
+{ "name": "conseil","size":1536.0},
+{ "name": "contre","size": 1343.0},
+{ "name": "cours","size":1068.0},
+{ "name": "deux","size": 1875.0},
+{ "name": "dont","size": 1550.0},
+{ "name": "encore","size": 1329.0},
+{ "name": "etat","size": 1102.0},
+{ "name": "faire","size": 1141.0},
+{ "name": "fait","size": 2128.0},
+{ "name": "franc","size": 997.0},
+{ "name": "français","size": 1091.0},
+{ "name": "genève","size":1257.0},
+{ "name": "gouvernement","size": 1159.0},
+{ "name": "grand","size":1003.0},
+{ "name": "général","size": 1156.0},
+{ "name": "ils","size":1557.0},
+{ "name": "lausanne","size": 967.0},
+{ "name": "leurs","size": 1105.0},
+{ "name": "on","size":1327.0},
+{ "name": "paris","size": 957.0},
+{ "name": "pays","size": 1147.0},
+{ "name": "politique","size": 1009.0},
+{ "name": "quelque","size": 1213.0},
+{ "name": "sans","size": 1610.0},
+{ "name": "sous","size": 1021.0},
+{ "name": "suisse","size": 2260.0},
+{ "name": "temps","size": 955.0},
+{ "name": "tous","size": 1519.0},
+{ "name": "tout","size": 3609.0},
+{ "name": "trè","size":1136.0},
+{ "name": "une","size": 1022.0},
+   { "name":"êtr","size": 1672.0},
+   {
+"name":"1952-1985",
+"size":90,
+"children":[
+
+{"name":  "ainsi","size": 255.8},
+{"name":  "année","size":283.6},
+{"name":  "ans","size": 401.8},
+{"name":  "aprè","size": 269.6},
+{"name":  "aussi","size": 304.0},
+{"name":  "autr","size":505.0},
+{"name":  "bien","size": 373.2},
+{"name":  "conseil","size": 302.2},
+{"name":  "contre","size": 299.2},
+{"name":  "cours","size": 285.8},
+{"name":  "deux","size": 508.6},
+{"name":  "dont","size": 335.4},
+{"name":  "encore","size": 305.2},
+{"name":  "faire","size": 255.4},
+{"name":  "fait","size": 447.0},
+{"name":  "franc","size": 241.4},
+{"name":  "genève","size": 295.8},
+{"name":  "général","size": 254.6},
+{"name":  "ils","size": 328.8},
+{"name":  "leurs","size": 247.6},
+{"name":  "million","size": 274.6},
+{"name":  "on","size":268.6},
+{"name":  "pays","size": 354.0},
+{"name":  "politique","size": 255.2},
+{"name":  "présidente","size": 242.6},
+{"name":  "quelque","size": 282.6},
+{"name":  "sans","size":355.2},
+{"name":  "suisse","size": 596.2},
+{"name":  "tous","size": 286.2},
+{"name":  "tout","size": 738.8},
+{"name":  "trè","size": 279.6},
+{"name":  "une","size":252.8},
+{"name":  "êtr","size":387.4},
+{
+"name":"1985-1998",
+"size":90,
+"children":[
+
+{"name":    "année","size": 1977.0},
+{"name":    "ans","size": 3993.0},
+{"name":    "aussi","size": 1765.0},
+{"name":    "autr","size":2806.0},
+{"name":    "bien","size": 1922.0},
+{"name":    "contre","size": 1817.0},
+{"name":    "deux","size": 3093.0},
+{"name":    "fait","size":2391.0},
+{"name":    "genève","size": 2315.0},
+{"name":    "ils","size": 1766.0},
+{"name":    "million","size": 1807.0},
+{"name":    "pays","size": 2027.0},
+{"name":    "sans","size": 2032.0},
+{"name":    "suisse","size": 4085.0},
+{"name":    "tout","size": 4026.0},
+{ "name":   "êtr" , "size": 2157.0}
+
+
+]
+
+
+}
+
+
+]
+
+
+
+
+}
+
+
+
+
+
+]
+
+
+
+
+}
+
+]
+
+
+}
+
+
+]
+
+
+
+}
+
+
+
+
+                    ]
+
+
+                    }
+                 ]
+
+
+                }
+
+
+                ]
+
+
+
+            }
+
+ ]
+    },
+    {
+      "name": "1798-03-01",
+      "size": 90,
+      "children": [
+        {
+          "name": "citoyen",
+          "size": 329.0
+        },
+        {
+          "name": "comité",
+          "size": 185.0
+        },
+        {
+          "name": "eft",
+          "size": 281.0
+        },
+        {
+          "name": "fait",
+          "size": 129.0
+        },
+        {
+          "name": "eft",
+          "size": 281.0
+        },
+        {
+          "name": "fait",
+          "size": 129.0
+        },
+        {
+          "name": "fes",
+          "size": 157.0
+        },
+        {
+          "name": "fon",
+          "size": 222.0
+        },
+        {
+          "name": "font",
+          "size": 155.0
+        },
+        {
+          "name": "fur",
+          "size": 239.0
+        },
+        {
+          "name": "gouvernement",
+          "size": 108.0
+        },
+        {
+          "name": "général",
+          "size": 170.0
+        },
+        {
+          "name": "ils",
+          "size": 133.0
+        },
+        {
+          "name": "jean",
+          "size": 107.0
+        },
+        {
+          "name": "leurs",
+          "size": 103.0
+        },
+        {
+          "name": "liberté",
+          "size": 123.0
+        },
+        {
+          "name": "mars",
+          "size": 112.0
+        },
+        {
+          "name": "peuple",
+          "size": 115.0
+        },
+        {
+          "name": "tous",
+          "size": 178.0
+        },
+        {
+          "name": "tout",
+          "size": 144.0
+        },
+        {
+            "name" : "1798-04-01",
+            "size": 90,
+            "children":[
+                {
+                "name": "autr",
+                "size":103.0
+            },
+            {
+                "name": "autr",
+                 "size": 103.0
+            },
+            {"name":"chambr",
+             "size": 134.0
+            },
+            {"name":"citoyen",
+              "2": 181.0
+            },
+            {"name":"eft",
+              "size": 328.0
+            },
+            {"name":"fait",
+              "szie": 117.0
+            },
+            {
+            "name":"fera",
+              "size": 107.0
+            },
+            {"name":"fon",
+              "size": 137.0
+            },
+            {"name":"font",
+              "size": 174.0
+            },
+            {"name":"fur",
+              "size": 176.0
+            },
+            {"name":"général",
+              "size": 113.0
+            },
+            {"name":"ils",
+              "size": 132.0
+            },
+            {"name":"leurs",
+              "size": 108.0
+            },
+            {"name":"république",
+              "size": 121.0
+            },
+            {"name":"tous",
+              "size": 176.0
+            },
+            {"name":"tout",
+              "size": 200.0
+            },
+            {
+            "name":"êtr",
+              "size": 126.0
+            },
+            {
+                "name":"1798-05-01",
+                "size":90,
+                "children":[
+                    {
+                        "name": "autr",
+                        "size":141.0
+                    }, { "name":"canton",
+                      "size": 196.0
+                    },
+                    {"name":"citoyen",
+                        "size": 247.0
+                    },
+                    {"name":"confeil",
+                        "size": 148.0
+                    },
+                    {"name":"corp",
+                        "size": 142.0
+                    },
+                    {"name":"demander",
+                        "size": 151.0
+                    },
+                    {"name":"directoire",
+                        "size": 311.0
+                    },
+                    {"name":"eft",
+                        "size": 643.0
+                    },
+                    {"name":"fait",
+                        "size": 208.0
+                    },
+                    {"name":"fon",
+                        "size": 204.0
+                    },
+                    {"name":"font",
+                        "size": 243.0
+                    },
+                    {"name":"fur",
+                        "size": 358.0
+                    },
+                    {"name":"général",
+                        "size": 144.0
+                    },
+                    {"name":"ils",
+                        "size": 199.0
+                    },
+                    {"name":"liberté",
+                        "size": 145.0
+                    },
+                    {"name":"mai",
+                        "size": 159.0
+                    },
+                    {"name":"on",
+                        "size": 193.0
+                    },
+                    {"name":"république",
+                        "size": 160.0
+                    },
+                    {"name":"tous",
+                        "size": 169.0
+                    },
+                    {"name":"tout",
+                        "size": 257.0
+                    },
+                    {"name":"êtr",
+                        "size": 180.0
+                    },
+                    {
+                "name":"1798-06-01",
+                "size":90,
+                 "children":[
+                    {"name":"autr",
+                    "size": 170.0
+                    },
+                     {"name":"canton",
+                        "size": 175.0
+                    },
+                     {"name":"citoyen",
+                        "size": 270.0
+                    },
+                     {"name":"corp",
+                        "size": 158.0
+                    },
+                     {"name":"demander",
+                        "size": 201.0
+                    },
+                     {"name":"directoire",
+                        "size": 315.0
+                    },
+                     {"name":"eft",
+                        "size": 611.0
+                    },
+                     {"name":"fait",
+                        "size": 198.0
+                    },
+                     {"name":"fera",
+                        "size": 139.0
+                    },
+                     {"name":"fes",
+                        "size": 140.0
+                    },
+                     {"name":"fon",
+                        "size": 210.0
+                    },
+                     {"name":"font",
+                        "size": 231.0
+                    },
+                     {"name":"fur",
+                        "4": 391.0
+                    },
+                     {"name":"général",
+                        "size": 178.0
+                    },
+                     {"name":"juin",
+                        "size": 169.0
+                    },
+                     {"name":"leurs",
+                        "size": 143.0
+                    },
+                     {"name":"législatif",
+                        "size": 143.0
+                    },
+                     {"name":"on",
+                        "size": 141.0
+                    },
+                     {"name":"réfolution",
+                        "size": 134.0
+                    },
+                     {"name":"république",
+                        "size": 131.0
+                    },
+                     {"name":"sénat",
+                        "size": 138.0
+                    },
+                     {"name":"tous",
+                        "szie": 167.0
+                    },
+                    {"name": "tout",
+                        "size": 238.0
+                    },
+                    {"name": "êtr",
+                        "size": 156.0
+                    },
+                    {
+                    "name":"1798[07-12]",
+                    "size" :  90,
+                    "children":
+                    [
+                        {"name": "autr","size": 147.4},
+                     {"name": "canton","size": 139.6},
+                     {"name": "citoyen","size": 257.7},
+                     {"name": "commune", "size": 135.6},
+                     {"name": "directoire","size": 247.6},
+                     {"name": "eft", "size":672.0},
+                     {"name": "faire","size": 138.9},
+                     {"name": "fait", "size":203.7},
+                     {"name": "fera","size": 167.4},
+                     {"name": "fes", "size": 166.3},
+                     {"name": "fon", "size": 226.7},
+                     {"name": "font", "size": 296.9},
+                     {"name": "fur", "size": 435.4},
+                     {"name": "général", "size": 165.7},
+                     {"name": "ils", "size": 207.0},
+                     {"name": "leurs","size": 170.7},
+                     {"name": "on", "size":150.0},
+                     {"name": "république","size": 147.1},
+                     {"name": "tous", "size" :184.1},
+                     {"name": "tout", "size": 277.0},
+                     {"name": "êtr", "size": 202.1}
+
+                    ]
+
+
+                    }
+
+
+
+
+                ]
+            }
+
+                ]
+
+
+
+
+
+            }
+
+
+            ]
+        }
+      ]
+    }
+  ]
+}
+
+
+
+
+
+
